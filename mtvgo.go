@@ -1,5 +1,5 @@
 
-package main
+package mtvgosetup
 
 import (
 	// "crypto/tls"
@@ -19,6 +19,7 @@ import (
 	// "time"
 	// "unicode"
 	// "strings"
+	
 
 	// "github.com/google/uuid"
 	"github.com/joho/godotenv"
@@ -27,6 +28,7 @@ import (
 	// "github.com/mailjet/mailjet-apiv3-go/v4"
 	_ "github.com/mattn/go-sqlite3"
 	// "golang.org/x/crypto/acme/autocert"
+	// "github.com/cjsmocjsmo/mtvgosetup"
 )
 
 type Template struct {

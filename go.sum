@@ -1,3 +1,5 @@
+github.com/cjsmocjsmo/mtvgosetup v0.0.0-20240221075807-e3f762cb0973 h1:KurMTanWXs/mtM7qe33QiA5vgwEccbwVzueFm9VznyA=
+github.com/cjsmocjsmo/mtvgosetup v0.0.0-20240221075807-e3f762cb0973/go.mod h1:f/sjvVKneSX0aPDIty9G5Ej5OfVmrevvgTH29Wc8QcQ=
 github.com/disintegration/imaging v1.6.2 h1:w1LecBlG2Lnp8B3jk5zSuNqd7b4DXhcjwek1ei82L+c=
 github.com/disintegration/imaging v1.6.2/go.mod h1:44/5580QXChDfwIclfc/PCwrr44amcmDAg8hxG0Ewe4=
 github.com/golang-jwt/jwt v3.2.2+incompatible h1:IfV12K8xAKAnZqdXVzCZ+TOjboZ2keLg81eXfW3O+oY=

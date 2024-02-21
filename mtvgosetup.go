@@ -1,4 +1,4 @@
-package main
+package mtvgosetup
 
 import (
 	"database/sql"
