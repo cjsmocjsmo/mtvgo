@@ -41,8 +41,8 @@ func main() {
 		}
 		e.Renderer = t
 
-		e.GET("/", ats_index)
-		// e.GET("/about", ats_about)
+		e.GET("/", index)
+		e.GET("/tv", tv)
 		// e.GET("/comments", ats_comments)
 		// e.GET("/estimates", ats_estimates)
 		// e.GET("/images", ats_images)
@@ -57,9 +57,14 @@ func (t *Template) Render(w io.Writer, name string, data interface{}, c echo.Con
 	return t.templates.ExecuteTemplate(w, name, data)
 }
 
-func ats_index(c echo.Context) error {
-	return c.Render(http.StatusOK, "ats_index", "WORKED")
+func index(c echo.Context) error {
+	return c.Render(http.StatusOK, "index", "WORKED")
 }
+
+func tv(c echo.Context) error {
+	return c.Render(http.StatusOK, "tv", "WORKED")
+}
+
 
 
 
